@@ -1,0 +1,23 @@
+{
+  "name": "bookshop",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^7.6.4",
+    "express": "^4",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^1"
+  },
+  "scripts": {
+    "start": "npx cds run",
+    "build": "cds build",
+    "deploy": "cds deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

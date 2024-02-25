@@ -1,0 +1,13 @@
+GET http://localhost:4004/odata/v4/catalog/Books
+
+###
+POST http://localhost:4004/odata/v4/catalog/Books
+Content-Type: application/json
+
+{"ID": 3, "title": "this is my other book"}
+
+###
+POST http://localhost:4004/odata/v4/catalog/orders
+Content-Type: application/json
+
+{"ID": "0ca4e37a-3c13-420f-a22c-33a465cdfbb9","books_ID": 421, "quantity": 5}

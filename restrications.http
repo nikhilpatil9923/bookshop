@@ -1,0 +1,16 @@
+GET http://localhost:4004/odata/v4/catalog/Books?&expand=Author
+
+###
+GET  http://localhost:4004/odata/v4/catalog/Authors?$expand=books
+
+###
+POST http://localhost:4004/odata/v4/catalog/Authors
+Content-Type: application/json
+
+{"ID": 6, "name": "The Hitch Hiker's Guide To The Galaxy"}
+
+###
+POST http://localhost:4004/odata/v4/catalog/Books
+Content-Type: application/json
+
+{"ID": 6, "title": "rich dad poor dad"}
