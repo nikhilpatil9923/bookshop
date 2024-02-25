@@ -11,7 +11,7 @@
 //     Employees : Association to many EMPLOYEE_REGESTRY on Employees.DEPARTMENT = $self;
 // }
 
-namespace my.MyDemoApp;
+namespace my.MyDemoApp; 
 
 using { cuid, managed } from '@sap/cds/common'; //importing aspects cuid and managed, details of this aspects will be stored in modules cds filecommon.cds
 entity Books {
